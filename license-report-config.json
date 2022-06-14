@@ -1,0 +1,11 @@
+{
+  "fields": [
+    "name",
+    "licensePeriod",
+    "licenseType",
+    "link",
+    "installedVersion",
+		"remoteVersion",
+    "author"
+  ]
+}
