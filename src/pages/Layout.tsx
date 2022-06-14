@@ -1,13 +1,16 @@
-import React from "react";
-import classNames from "classnames";
-import { NavLink, Outlet } from "react-router-dom";
-import { MondraLogo } from "components/mondra-logo/MondraLogo";
+import React from 'react'
+import classNames from 'classnames'
+import { NavLink, Outlet } from 'react-router-dom'
+import { MondraLogo } from 'components/mondra-logo/MondraLogo'
 
-const navLinkClasses = ({ isActive }: any) =>
+interface InavLinkClasses {
+  isActive: boolean
+}
+const navLinkClasses = ({ isActive }: InavLinkClasses) =>
   classNames(
-    "text-indigo-500 font-medium hover:text-primary-600 motion-safe:transition-all",
-    isActive && "text-primary-700 font-semibold"
-  );
+    'text-indigo-500 font-medium hover:text-primary-600 motion-safe:transition-all',
+    isActive && 'text-primary-700 font-semibold'
+  )
 export default function Layout() {
   return (
     <div className="layout min-h-screen px-8 py-4">
@@ -28,5 +31,5 @@ export default function Layout() {
         <Outlet />
       </div>
     </div>
-  );
+  )
 }

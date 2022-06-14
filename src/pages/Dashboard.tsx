@@ -1,6 +1,6 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
-import { LottieLoader } from "@mondra/ui-components";
+import React from 'react'
+import { NavLink } from 'react-router-dom'
+import { LottieLoader } from '@mondra/ui-components'
 
 export default function Dashboard() {
   return (
@@ -13,5 +13,5 @@ export default function Dashboard() {
         </NavLink>
       </div>
     </div>
-  );
+  )
 }

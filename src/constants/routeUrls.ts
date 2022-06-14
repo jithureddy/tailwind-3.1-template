@@ -1,6 +1,6 @@
 export const ROUTE_URLS = {
-  base: "/",
-	users: 'users',
-	userDetail: ':userId',
-	noMatch: '*'
-};
+  base: '/',
+  noMatch: '*',
+  userDetail: ':userId',
+  users: 'users',
+}

@@ -1,0 +1,6 @@
+/**/build/*
+.json
+/**/**/**.ttf
+.png
+.snap
+src/styles/index.css

@@ -270,7 +270,6 @@ styles/output.css
 storybook-static
 storybook-static.zip
 lib
-.env
 # Visual Studio 6 build log
 *.plg
 

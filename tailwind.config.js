@@ -1,9 +1,11 @@
-const theme = require('@mondra/ui-components/styles/theme-config')
+const mondraTheme = require('@mondra/ui-components/styles/theme-config')
 
-module.exports = theme({
-  content: ['./public/index.html'],
+module.exports = mondraTheme({
+  content: ['./public/index.html', './.storybook/preview.js'],
   theme: {
-    extend: {},
+    extend: {
+		},
   },
   plugins: [],
 })
+
